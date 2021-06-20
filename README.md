@@ -1,5 +1,17 @@
 # README
 
+Command to run:
+
+```
+git clone https://github.com/sujit-ally/CameraZone/
+```
+```
+cd CameraZone
+```
+```
+rails server
+```
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
