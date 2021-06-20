@@ -3,7 +3,7 @@
 Command to run:
 
 ```
-git clone https://github.com/sujit-ally/CameraZone/
+git clone https://github.com/sujit-ally/CameraZone
 ```
 ```
 cd CameraZone
