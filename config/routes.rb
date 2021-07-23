@@ -1,4 +1,9 @@
 Rails.application.routes.draw do
+
+  resources :stores
+  devise_for :users
+
+  
   get 'gallery/index'
   get 'gallery/checkout'
   post 'gallery/checkout'
@@ -12,8 +17,7 @@ Rails.application.routes.draw do
   resources :carts
   get 'admin/login'
 
-  resources :stores
-  devise_for :users
+  
   get 'home/index'
   post 'admin/login'
   get 'admin/logout'
